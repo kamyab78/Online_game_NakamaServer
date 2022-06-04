@@ -1,0 +1,18 @@
+name: match-master
+logger:
+  level: "DEBUG"
+  
+runtime:
+  js_entrypoint: "build/index.js"
+  session:
+  token_expiry_sec: 7200 # 2 hours  
+
+socket:
+  max_message_size_bytes: 4096 # reserved buffer
+  max_request_size_bytes: 131072
+
+console:
+    port: 7351
+    username: "match_master"
+    password: "Bourn@12345"
+    max_message_size_bytes: 409600
