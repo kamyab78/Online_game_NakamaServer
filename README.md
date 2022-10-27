@@ -1,5 +1,6 @@
 # Match Master Backend
 
+this project , backend service for online game , pvp match
 
 ## Run
 To run project with docker compose (in background) , run the following command:
